@@ -10,9 +10,11 @@ body{
     font-size: 18px;
 }
 
-.color-nav-letra{
-    color: black;
-}
 .color-nav-letra:visited{
     color: black;
+}
+
+.fonte-cadastrar{
+    font-size: 40px;
+    margin-left: 20px;
 }

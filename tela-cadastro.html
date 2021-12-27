@@ -11,73 +11,78 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg mb-5" style="background-color: #FF4200;">
+        <nav class="navbar navbar-expand-lg mb-5" style="background-color: #CACFD2 ;">
             <div class="container-fluid">
-            <a class="navbar-brand color-nav-letra fonte-titulo" href="#">FlixWatch</a>
+            <a class="navbar-brand text-dark fonte-titulo" href="#">FlixWatch</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse  justify-content-end fonte-link" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-link active color-nav-letra" aria-current="page" href="#">Home</a>
-                <a class="nav-link color-nav-letra" href="#">Busca</a>
-                <a class="nav-link color-nav-letra" href="#">Contatos</a>
+                <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                <a class="nav-link text-dark" href="#">Busca</a>
+                <a class="nav-link text-dark" href="#">Contatos</a>
                 </div>
             </div>
             </div>
         </nav>
-    </header>
 
-    <form class="row g-3 container-fluid p-5">
-        <div class="col-md-4">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-4">
-          <label for="inputPassword" class="form-label">Senha</label>
-          <input type="password" class="form-control" id="inputPassword">
-        </div>
-        <div class="col-md-4">
-          <label for="inputPasswordConfirm" class="form-label">Confirmação de senha</label>
-          <input type="password" class="form-control" id="inputPasswordConfirm">
-        </div>
-        <div class="col-md-2">
-          <label for="inputRG" class="form-label">RG</label>
-          <input type="text" class="form-control" id="inputRG" placeholder="Digite seu RG">
-        </div>
-        <div class="col-md-5">
-          <label for="inputCEP" class="form-label">CEP</label>
-          <input type="text" class="form-control" id="inputCEP">
-        </div>
-        <div class="col-md-4">
-          <label for="inputEstado" class="form-label">Estado</label>
-          <input type="text" class="form-control" id="inputEstado">
-        </div>
-        <div class="col-md-2">
-          <label for="inputCity" class="form-label">Cidade</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-2">
-            <label for="inputBairro" class="form-label">Bairro</label>
-            <input type="text" class="form-control" id="inputBairro">
-        </div>
-        <div class="col-md-2">
-            <label for="inputRua" class="form-label">Rua</label>
-            <input type="text" class="form-control" id="inputRua">
-        </div>
-        <div class="col-md-2">
-            <label for="inputNum" class="form-label">Número</label>
-            <input type="text" class="form-control" id="inputNum">
-        </div>
-        <div class="col-md-2">
-            <label for="inputComplemento" class="form-label">Complemento</label>
-            <input type="text" class="form-control" id="inputComplemento">
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </div>
-      </form>
+        <span class="fonte-cadastrar">Cadastre-se aqui!</span>
+    </header>
     
+    <main class="pt-5">
+        <section class="d-flex justify-content-center border bg-light ">
+            <form class="row g-3 container-fluid p-5 ">
+                <div class="col-md-4">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email">
+                </div>
+                <div class="col-md-4">
+                <label for="inputPassword" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha">
+                </div>
+                <div class="col-md-4">
+                <label for="inputPasswordConfirm" class="form-label">Confirmação de senha</label>
+                <input type="password" class="form-control" id="inputPasswordConfirm">
+                </div>
+                <div class="col-md-2">
+                <label for="inputRG" class="form-label">RG</label>
+                <input type="text" class="form-control" id="inputRG" placeholder="Digite seu RG">
+                </div>
+                <div class="col-md-5">
+                <label for="inputCEP" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="Digite seu CEP">
+                </div>
+                <div class="col-md-4">
+                <label for="inputEstado" class="form-label">Estado</label>
+                <input type="text" class="form-control" id="inputEstado">
+                </div>
+                <div class="col-md-2">
+                <label for="inputCity" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputBairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="inputBairro">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputRua" class="form-label">Rua</label>
+                    <input type="text" class="form-control" id="inputRua">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputNum" class="form-label">Número</label>
+                    <input type="text" class="form-control" id="inputNum">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputComplemento" class="form-label">Complemento</label>
+                    <input type="text" class="form-control" id="inputComplemento">
+                </div>
+                <div class="col-12">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+            </section>
+        </form>
+    </main>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
