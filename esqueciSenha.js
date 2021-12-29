@@ -11,3 +11,5 @@ let emailInserido = document.getElementById('exampleInputEmail1')
                 res.innerHTML('E-mail inválido, por favor tente novamente')
             } 
         }
+
+        //eu tentei fazer com addEventListener adicionar try catch, mas n funcionou. então eu fiz uma função simples, e mesmo assim não funciona
