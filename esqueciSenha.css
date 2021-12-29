@@ -9,3 +9,9 @@
     box-shadow: 1px 5px 30px rgb(195, 195, 195);
     border-radius: 15px;
 }
+
+.forgot {
+    color: #0000FF;
+    text-decoration: underline;
+
+}
