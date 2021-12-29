@@ -1,0 +1,11 @@
+#formulario-style {
+    width: 500px;
+    position: absolute;
+    margin: 10px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgb(195, 195, 195);
+    border-radius: 15px;
+}
