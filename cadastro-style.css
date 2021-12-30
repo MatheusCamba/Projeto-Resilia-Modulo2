@@ -2,6 +2,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+/* estilo navBar */
 .fonte-titulo-nav{
     font-family: 'Fredoka One', cursive;
 }
@@ -18,7 +19,23 @@ body{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
    }
 
-
+/* estilo Cadastre-se aqui! */
 .fonte-cadastrar{
     font-size: 40px;
+}
+
+/* estilo footer */
+#footer{
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
 }
