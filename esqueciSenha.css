@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
-    background-color: black;
+    background-color: #0d0d0d; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #formulario-style {
@@ -12,7 +15,6 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 1px 5px 30px rgb(195, 195, 195);
     border-radius: 15px;
 }
 
@@ -22,7 +24,21 @@ body{
 
 }
 
+/* navbar */
+
 .fonte-titulo{
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
+}
+
+.cor-especial{
+    color: #FF7200 !important
+  }
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   }
+
+.bg-header{
+    background-color: #0d0d0d;
 }
