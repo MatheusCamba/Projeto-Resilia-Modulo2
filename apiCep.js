@@ -11,7 +11,7 @@ $("#inputCEP").blur(function(){
             $("#inputCity").val(`${dados.localidade}`)
             $("#inputBairro").val(`${dados.bairro}`)
             $("#inputRua").val(`${dados.logradouro}`)
-            $()
+            
         }
     })
 })
