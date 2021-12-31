@@ -39,19 +39,22 @@
                 <div class="card-body">
                     <form id="formulario">
                         <div class="mb-3">
-                            <h2 class="mb-4">Esqueci minha senha</h2>
+                            <h2 id="titulo" class="mb-4">Esqueci minha senha</h2>
         
                         <section class="email">
         
-                            <p>Enviaremos um email com instruções de como redefinir sua senha.</p>
-                                <label for="exampleInputEmail1" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
+                            <p>Enviaremos um e-mail com instruções de como redefinir sua senha</p>
 
-                                <p id="msg">...</p>
+                                <div class="mb-3" id="email-invalido"></div>
+                                <div class="mb-3" id="email-valido"></div>
+
+
+                                <label for="exampleInputEmail1" class="form-label">E-mail:</label>
+                                <input type="email" class="form-control mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
 
                                 <p class="forgot">Não lembro meu e-mail</p>
         
-                                <button type="submit" id="enviar" class="btn cor-especial-botao" onclick="">enviar</button>
+                                <button type="submit" id="envie" class="btn cor-especial-botao">Enviar</button>
                             </section>
                     </form>
                 </div>
@@ -61,6 +64,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="./esqueciSenha.js"></script>
 
     </body>
