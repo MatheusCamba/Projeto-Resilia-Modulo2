@@ -18,10 +18,8 @@ body{
     border-radius: 15px;
 }
 
-.forgot {
-    color: #0000FF;
-    text-decoration: underline;
-
+#titulo{
+    text-align: center;
 }
 
 .cor-especial-botao{
@@ -30,6 +28,25 @@ body{
 
 }
 
+.forgot {
+    color: #0000FF;
+    text-decoration: underline;
+
+}
+
+#email-invalido{
+    color: crimson;
+    font-weight: bold;
+}
+
+#email-valido{
+    color: green;
+    font-weight: bold;
+}
+
+.form-label{
+    font-weight: bold;
+}
 /* navbar */
 
 .fonte-titulo{
