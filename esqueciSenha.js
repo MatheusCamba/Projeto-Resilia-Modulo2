@@ -1,15 +1,12 @@
-let enviar = document.getElementById('enviar')
-let res = document.getElementById('msg')
-let emailInserido = document.getElementById('exampleInputEmail1')
+    document.getElementById("envie").addEventListener("click", function(event){
+        event.preventDefault()
+      });
 
-    function enviar() {
-        let email = emailInserido.val()
-
-            if(email.indexOf('@') > -1){
-                res.innerHTML('Um link de recuperação foi enviado para o seu email')
+    $("#exampleInputEmail1").blur(function(){
+        let email = $("#exampleInputEmail1").val()
+            if(email.indexOf("@") > -1){
+                $("#email-valido").text("Um link de recuperação foi enviado para o seu e-mail!")
             } else {
-                res.innerHTML('E-mail inválido, por favor tente novamente')
-            } 
-        }
-
-        //eu tentei fazer com addEventListener adicionar try catch, mas n funcionou. então eu fiz uma função simples, e mesmo assim não funciona
+                $("#email-invalido").text("E-mail inválido, por favor tente novamente")
+            }
+    })
