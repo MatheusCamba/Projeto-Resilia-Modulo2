@@ -28,31 +28,31 @@
     </header>
     
     <main class="pt-5">
-        <div class="mt-5 mb-5">
-            <span class="fonte-cadastrar text-light">Cadastre-se aqui !</span>
+        <div class="mt-5 mb-5 text-center">
+            <span class="fonte-cadastrar text-light ">Cadastre-se aqui !</span>
         </div>
         <section class="d-flex justify-content-center border bg-light ">
             <form class="row g-3 container-fluid p-5" id="form">
                 <div class="col-md-4">
                     <label for="inputEmail4" class="form-label">Email</label>
                     <div id="email-Invalido"></div>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu email" required>
                 </div>
                 <div class="col-md-4">
                     <label for="inputPassword" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Digite sua senha">
+                    <input type="password" class="form-control" id="inputPassword" maxlength="6" placeholder="Até 6 caracteres" required>
                 </div>
                 <div class="col-md-4">
                     <label for="inputPasswordConfirm" class="form-label">Confirmação de senha</label>
-                    <input type="password" class="form-control" id="inputPasswordConfirm">
+                    <input type="password" class="form-control" maxlength="6" id="inputPasswordConfirm" required>
                 </div>
                 <div class="col-md-2">
                     <label for="inputRG" class="form-label">RG</label>
-                    <input type="text" class="form-control" id="inputRG" placeholder="Digite seu RG">
+                    <input type="text" class="form-control" id="inputRG" maxlength="9" placeholder="Digite seu RG" required>
                 </div>
                 <div class="col-md-5">
                     <label for="inputCEP" class="form-label">CEP</label>
-                    <input type="text" class="form-control" id="inputCEP" placeholder="Digite seu CEP" required>
+                    <input type="text" class="form-control" id="inputCEP" maxlength="8" placeholder="Digite seu CEP" required>
                 </div>
                 <div class="col-md-4">
                     <label for="inputEstado" class="form-label">Estado</label>
