@@ -14,6 +14,7 @@ $("#inputEmail4").blur(function(){
    
 })
 
+//verificar se o form está completo
 $("#submit").click(function(){
     console.log("fui clicado")
     let email = $("#inputEmail4").val()
