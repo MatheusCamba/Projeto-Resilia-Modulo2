@@ -13,3 +13,19 @@ $("#inputEmail4").blur(function(){
         }
    
 })
+
+$("#submit").click(function(){
+    console.log("fui clicado")
+    let email = $("#inputEmail4").val()
+    let senha = $("#inputPassword").val()
+    let confirmSenha = $("#inputPasswordConfirm").val()
+    let rg = $("#inputRG").val()
+    let cep = $("#inputCEP").val()
+
+    if(email === "" || senha === "" || confirmSenha === "" || rg === "" || cep === "" ){
+        alert("Complete o formulário por favor .")
+    } else{
+        return window.location.assign('./cadastro-feito.html')
+    }
+
+})
