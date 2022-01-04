@@ -25,10 +25,26 @@ body{
 #email-Invalido{
     color: red;
 }
+.emailCerto{
+    color: red;
+}
 
 /* estilo Cadastre-se aqui! */
 .fonte-cadastrar{
     font-size: 40px;
+}
+
+.font-link{
+    font-size: 12px;
+}
+
+.form-container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    width: 457px;
+    height: 360px;
 }
 
 /* estilo footer */

@@ -30,3 +30,20 @@ $("#submit").click(function(){
     }
 
 })
+
+//verificar se o form login está completo
+$("#entrar").click(function(){
+    console.log("clicado")
+    let email = $("#inputEmail4").val()
+    let senha = $("#exampleInputPassword1").val()
+
+    if(email === "" && senha === ""){
+        alert("Insira o email e a senha")
+    } else if(email === ""){
+        alert("Insira a email")
+    } else if(senha === ""){
+        alert("Insira a senha")
+    } else {
+        return window.location.assign("#")
+    }
+})
