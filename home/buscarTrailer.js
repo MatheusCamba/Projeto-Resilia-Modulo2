@@ -40,9 +40,9 @@ function mostrar(){ //função feita para abrir o trailer dos filmes do catálog
             console.log(titulo)
             $('iframe').attr('src', "https://www.youtube.com/embed/CwXOrWvPBPk")   
         }
-        if(titulo == 'Coco'){
+        if(titulo == 'Okja'){
             console.log(titulo)
-            $('iframe').attr('src', "https://www.youtube.com/embed/iLmZZV-Nkuk")   
+            $('iframe').attr('src', "https://www.youtube.com/embed/KuvtSj8krgs")   
         }
         if(titulo == 'Love, Rosie'){
             console.log(titulo)
