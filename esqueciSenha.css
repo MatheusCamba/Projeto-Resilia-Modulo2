@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 body{
     background-color: #0d0d0d; 
     display: flex;
@@ -80,6 +78,23 @@ body{
     height: 60px;
     width: 60px;
     transition: all 3s;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
+
+/* footer */
+footer{
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+    margin-top: 38%;
 }
 
 #img-rodape:hover{
