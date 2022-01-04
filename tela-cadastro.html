@@ -28,11 +28,11 @@
     </header>
     
     <main class="pt-5">
-        <div class="mt-5 mb-5 text-center">
-            <span class="fonte-cadastrar text-light ">Cadastre-se aqui !</span>
-        </div>
-        <section class="d-flex justify-content-center border bg-light ">
+        <section class="d-flex justify-content-center border bg-light mt-5 ">
             <form class="row g-3 container-fluid p-5" id="form">
+                <div class="display-5 pb-4">
+                    <span>Cadastre-se aqui!</span>
+                </div>
                 <div class="col-md-4">
                     <label for="inputEmail4" class="form-label">Email</label>
                     <div id="email-Invalido"></div>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-md-2">
                     <label for="inputRG" class="form-label">RG</label>
-                    <input type="text" class="form-control" id="inputRG" maxlength="9" placeholder="Digite seu RG" required>
+                    <input type="number" class="form-control" id="inputRG" maxlength="9" placeholder="Digite seu RG" required>
                 </div>
                 <div class="col-md-5">
                     <label for="inputCEP" class="form-label">CEP</label>
@@ -79,7 +79,7 @@
                     <input type="text" class="form-control" id="inputComplemento">
                 </div>
                 <div class="col-12">
-                    <button type="button" class="btn btn-primary" id="submit">Cadastrar</button>
+                    <button type="button" class="btn btn-primary cor-btn-especial" id="submit">Cadastrar</button>
                 </div>
             </section>
         </form>

@@ -24,7 +24,7 @@ $("#submit").click(function(){
     let cep = $("#inputCEP").val()
 
     if(email === "" || senha === "" || confirmSenha === "" || rg === "" || cep === "" ){
-        alert("Complete o formulário por favor .")
+        alert("Complete o formulário por favor.")
     } else{
         return window.location.assign('./cadastro-feito.html')
     }
