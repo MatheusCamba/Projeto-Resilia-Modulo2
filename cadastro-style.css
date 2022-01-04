@@ -63,6 +63,14 @@ body{
     transition: all 3s;
 }
 
+.footer-margin-login-cadastro{
+   margin-top: 250px; 
+}
+
+.footer-margin-cadastro-feito{
+    margin-top: 35px;
+}
+
 #img-rodape:hover{
     transform: rotate(360deg);
 }
