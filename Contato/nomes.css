@@ -1,0 +1,62 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.fonte-titulo-nav{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+.bg-header{
+    background-color: #0d0d0d;
+}
+
+.cor-especial{
+  color: #FF7200 !important
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   }
+
+
+li {
+    background-color: #FF7200 !important;
+    display: inline-table;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family:'Fredoka One', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.taman {
+    
+    color: white;
+    font-size: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  
+}
+
+#footer{
+    height: 70px;
+}
+
+#img-rodape{
+    margin-top: 4%;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
+
