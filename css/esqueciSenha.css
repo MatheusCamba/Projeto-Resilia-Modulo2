@@ -1,0 +1,126 @@
+body{
+    background-color: #0d0d0d; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* navbar */
+
+.fonte-titulo{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+.cor-especial{
+    color: #FF7200 !important
+  }
+
+.bg-header{
+    background-color: #0d0d0d;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   }
+
+/* formulário */
+
+#formulario-style {
+    width: 500px;
+    position: absolute;
+    margin: 10px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.cor-especial-botao{
+    color: white;
+    background-color: #FF7200;
+
+}
+
+.forgot {
+    color: #0000FF;
+    text-decoration: underline;
+
+}
+
+#email-invalido{
+    color: crimson;
+    font-weight: bold;
+}
+
+#email-valido{
+    color: green;
+    font-weight: bold;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+/* estilo footer */
+#footer{
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
+
+/* footer */
+footer{
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+    margin-top: 38%;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
+
+/* responsividade */
+
+@media screen and (max-width: 700px){
+
+    body{
+        background-color: #0d0d0d; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #formulario-style {
+        width: 300px;
+        position: absolute;
+        margin: 5px;
+        padding: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+    }
+}
