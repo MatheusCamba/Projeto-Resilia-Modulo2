@@ -43,8 +43,8 @@ body{
 }
 
 .cor-especial-botao{
-    color: white;
-    background-color: #FF7200;
+    color: white!important;
+    background-color: #FF7200!important;
 
 }
 
