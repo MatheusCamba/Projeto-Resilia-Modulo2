@@ -48,12 +48,6 @@ body{
 
 }
 
-.forgot {
-    color: #0000FF;
-    text-decoration: underline;
-
-}
-
 #email-invalido{
     color: crimson;
     font-weight: bold;
