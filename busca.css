@@ -1,0 +1,64 @@
+#pagina{
+    background-color: #0d0d0d; 
+}
+
+.container{
+   
+    margin-top: 10%;
+    color: antiquewhite;
+}
+
+.fonte-titulo-nav{
+    font-family: 'Fredoka One', cursive;
+}
+
+.bg-header{
+    background-color: #0d0d0d;
+}
+
+.cor-especial{
+  color: #FF7200 !important
+}
+
+
+   #footer{
+
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
+
+.btn {
+    border-color:#f61f0e;
+    background:linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+    box-shadow:inset 0px 1px 0px 0px #fff4f3;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009; 
+    margin-top: 2%;
+    }
+
+.btn:hover{
+    background:linear-gradient(to bottom, #f61f0e 5%, #fca8a1 100%);
+}
+
+
+
+#sinopse{
+    display: inline-block;
+}
+
+#retornoImg{
+    float: left;
+    height: 400px;
+    width: auto;
+    
+}
