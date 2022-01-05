@@ -123,4 +123,37 @@ footer{
         transform: translate(-50%, -50%);
         border-radius: 15px;
     }
+
+/* estilo footer */
+#footer{
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
+
+/* footer */
+footer{
+    height: 70px;
+}
+
+#img-rodape{
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    transition: all 3s;
+    margin-top: 140%;
+}
+
+#img-rodape:hover{
+    transform: rotate(360deg);
+}
 }
