@@ -9,7 +9,7 @@ body{
 /* navbar */
 
 .fonte-titulo{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive!important;
     font-size: 30px;
 }
 
