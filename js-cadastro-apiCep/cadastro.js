@@ -44,6 +44,6 @@ $("#entrar").click(function(){
     } else if(senha === ""){
         alert("Insira a senha")
     } else {
-        return window.location.assign("./home/home.html")
+        return window.location.assign("./home.html")
     }
 })
