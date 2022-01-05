@@ -65,6 +65,17 @@ body{
     }
 }
 
+.div-repon-index{
+    display: none;
+}
+
+@media screen and (max-width: 700px){
+    .div-repon-index{
+        display: flex;
+        text-align: center;
+        margin-left: 35px;
+    }
+}
 /* estilo footer */
 #footer{
     height: 70px;
